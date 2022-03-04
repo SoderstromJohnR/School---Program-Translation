@@ -1,0 +1,27 @@
+# Copied from Jackson since he had a decent set #
+# Combined with my small file, I think it covers a lot #
+# Outputs from 1 to 10 with complex expressions #
+declare x := 0 ;
+{
+ x := x + 1;
+ out x;
+ x := 2 * 10 / 10;
+ out x;
+ x := 3 * 10 - 27;
+ out x;
+ x := *4 * 5 + *8 / 2;
+ out x;
+ x:= (4 * 5) - (3 * 5);
+ out x;
+ x := (6 * 6 / 6 - 6 + *6);
+ out x;
+ x := ((49 / 7) * 3) - 14;
+ out x;
+ x := (((((((*100 / 10) * 9) / 8) - *7) + *6) / 5) * *4);
+ out x;
+ x := (((1 + 2) - (3 - 6)) * 3) / 2;
+ out x;
+
+ # Final sanity check for all good outputs #
+ out 10;
+}
